@@ -1,1 +1,0 @@
-# nadezola.github.io
