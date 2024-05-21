@@ -49,3 +49,34 @@ $on-laptop:        1000px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+// Custom styles
+.wrapper {
+  margin:0 auto;
+  padding: 0;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.left-column {
+  width: 20%;
+  padding: 0 20px 0 0;
+  text-align: center;
+}
+
+.left-column img {
+  width: 180px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.right-column {
+  width: 80%;
+  padding: 0;
+}
