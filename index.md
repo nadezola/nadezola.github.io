@@ -4,6 +4,8 @@
 
 layout: home
 ---
+## About
+
 Currently, I am working as a University Project Assistant in the [LRS Group](https://www.tugraz.at/institute/icg/research/team-bischof/learning-recognition-surveillance) (Learing, Recognition and Surveillace)
 at the [Institute of Computer Graphics and Vision](https://www.tugraz.at/institute/icg/home) 
 at [Graz University of Technology](https://en.wikipedia.org/wiki/Graz_University_of_Technology). 
