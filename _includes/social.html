@@ -1,30 +1,46 @@
-{%- if site.github_username -%}
-<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}">
-    <svg class="svg-icon">
-        <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#github"></use>
-    </svg>
-</a>
-{%- endif -%}
+<ul class="social-media-list">
 
-{%- if site.orcid_username -%}
-<a href="https://orcid.org/{{ site.orcid_username| cgi_escape | escape }}">
-    <svg class="svg-icon">
-        <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#orcid"></use>
-    </svg>
-</a>
-{%- endif -%}
-
-{%- if site.linkedin_username -%}
-<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}">
-    <svg class="svg-icon">
-        <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#linkedin"></use>
-    </svg>
-</a>{%- endif -%}
-
+<li>
 {%- if site.scholar_username -%}
-<a href="https://scholar.google.com/citations?user={{ site.scholar_username| cgi_escape | escape }}=en">
+<a href="https://scholar.google.com/citations?user={{ site.scholar_username }}" target='_blank'>
     <svg class="svg-icon">
         <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#googlescholar"></use>
     </svg>
+    <span class="username"> Google Scholar</span>
 </a>
 {%- endif -%}
+</li>
+
+<li>
+{%- if site.github_username -%}
+<a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target='_blank'>
+    <svg class="svg-icon">
+        <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#github"></use>
+    </svg>
+    <span class="username"> GitHub</span>
+</a>
+{%- endif -%}
+</li>
+
+<li>
+{%- if site.orcid_username -%}
+<a href="https://orcid.org/{{ site.orcid_username| cgi_escape | escape }}" target='_blank'>
+    <svg class="svg-icon">
+        <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#orcid"></use>
+    </svg>
+    <span class="username"> Orcid</span>
+</a>
+{%- endif -%}
+</li>
+
+<li>
+{%- if site.linkedin_username -%}
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target='_blank'>
+    <svg class="svg-icon">
+        <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#linkedin"></use>
+    </svg>
+    <span class="username">LinkedIn</span>
+</a>{%- endif -%}
+</li>
+
+</ul>
