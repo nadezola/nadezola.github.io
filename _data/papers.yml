@@ -1,0 +1,54 @@
+- title: "Into the Fog: Evaluating Multiple Object Tracking Robustness"
+  authors: N. Kirillova, M. J. Mirza, H. Possegger, H. Bischof
+  journal: "arXiv preprint: 2404.10534" 
+  year: 2023
+  img: IntoFog2024.png
+  alt: IntoFog2024
+  link: https://arxiv.org/abs/2404.10534
+  BibTeX_cite: article{kirillova23a,
+  BibTeX_authors: Kirillova, Nadezda and Mirza, M. Jehanzeb and Possegger, Horst and Bischof, Horst
+
+
+- title: A Comprehensive Crossroad Camera Dataset to Improve Traffic Safety of Mobility Aid Users
+  authors: L. Mohr, N. Kirillova, H. Possegger, H. Bischof
+  journal: In Proc. of the British Machine Vision Conference (BMVC) 
+  year: 2023
+  img: BMVC2023.png
+  alt: BMVC2023
+  link: https://papers.bmvc2023.org/0743.pdf
+  BibTeX_cite: inproceedings{mohr23a,
+  BibTeX_authors: Mohr, Ludwig and Kirillova, Nadezda and Possegger, Horst and Bischof, Horst
+  code: https://graz.elsevierpure.com/en/publications/dataset-crossroad-camera-dataset-mobility-aid-users-10
+
+
+- title: Identifying and Extracting Pedestrian Behavior in Critical Traffic Situations
+  authors: M. Schachner, B. Schneider, F. Weißenbacher, N. Kirillova, H. Possegger, H. Bischof, C. Klug
+  journal: In Proc. of the IEEE International Conference on Intelligent Transportation Systems (ITSC) 
+  year: 2023
+  img: ITSC2023.png
+  alt: ITSC2023
+  link: https://ieeexplore.ieee.org/abstract/document/10421799
+  BibTeX_cite: inproceedings{schachner23b,
+  BibTeX_authors: Schachner, Martin and Schneider, Bernd and Wei{\ss}enbacher, Fabian and Kirillova, Nadezda and Possegger, Horst and Bischof, Horst and Klug, Corina
+
+
+- title: Observation-based Pedestrian Scenario Extraction for Virtual Testing
+  authors: M. Schachner, N. Kirillova, F. Weißenbacher, B. Schneider, H. Possegger, H. Bischof, A. Aichberger, Z. F. Magosi, J. Dobberstein, T. Lich, M. Kirchengast, M. Hennecke, C. Klug
+  journal: In Proc. of the International Technical Conference on the Enhanced Safety of Vehicles (ESV) 
+  year: 2023
+  img: ESV2023.jpg
+  alt: ESV2023
+  link: https://www-nrd.nhtsa.dot.gov/departments/esv/27th/
+  BibTeX_cite: inproceedings{schachner23a,
+  BibTeX_authors: Schachner, Martin and Kirillova, Nadezda and Wei{\ss}enbacher, Fabian and Schneider, Bernd and Possegger, Horst and Bischof, Horst and Aichberger, Arno and Magosi, Zoltan Ferenc and Dobberstein, Jan and Lich, Thomas and Kirchengast, Martin and Hennecke, Marcus and Klug, Corina
+
+
+- title: A Visual Surveillance System to Observe Realistic Road User Behavior for Improved Pedestrian and Cyclist Safety at Crossroads
+  authors: N. Kirillova, H. Possegger, H. Bischof
+  journal: In Proc. of the IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS)
+  year: 2022
+  img: AVSS2022.png
+  alt: AVSS2022
+  link: https://ieeexplore.ieee.org/document/9959562
+  BibTeX_cite: inproceedings{kirillova22a,
+  BibTeX_authors: Kirillova, Nadezda and Possegger, Horst and Bischof, Horst

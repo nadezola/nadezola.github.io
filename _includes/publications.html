@@ -1,69 +1,37 @@
 <div class="publications">
     <h2>Publications</h2>
     <ul>
+    {% for paper in site.data.papers %}
       <li>
       <div class="paper">
       <div class="paper-left">
-        <img src="{{ site.baseurl }}/assets/papers/ESV2023.jpg" alt="ESV2023">
+        <img src="{{ site.baseurl }}/assets/papers/{{ paper.img }}" alt="{{ paper.alt }}">
       </div>
       <div class="paper-right">
-      <p class="title">Observation-based Pedestrian Scenario Extraction for Virtual Testing</p>
-      <p class="authors">M. Schachner, N. Kirillova, F. Weißenbacher, B. Schneider, H. Possegger, H. Bischof, A. Aichberger,
-          Z. F. Magosi, J. Dobberstein, T. Lich, M. Kirchengast, M. Hennecke, C. Klug</p>
-      <p class="journal">In Proc. of the International Technical Conference on the Enhanced Safety of Vehicles (ESV),
-          2023.</p>
+      <p class="title">{{ paper.title }}</p>
+      <p class="authors">{{ paper.authors }}</p>
+      <p class="journal">{{ paper.journal }}, {{ paper.year }}</p>
       <div class="citation-container">
-      <span><a href="https://www-nrd.nhtsa.dot.gov/departments/esv/27th/" target="_blank">Paper</a></span>
+      <span><a href="{{ paper.link }}" target="_blank">Paper</a></span>
       <span><a href="#" onclick="toggleCitation(event)"> Cite this paper</a>
           <div class="citation-content">
-              {% raw %}
               <p class="title">BibTeX:</p>
-              <p class="noindent">@inproceedings{schachner23a,</p>
-              <p>title = {{Observation-based Pedestrian Scenario Extraction for Virtual Testing},</p>
-              <p>author = {Schachner, Martin and Kirillova, Nadezda and Wei{\ss}enbacher, Fabian and Schneider, Bernd and
-                  Possegger, Horst and Bischof, Horst and Aichberger, Arno and Magosi, Zoltan Ferenc and
-                  Dobberstein, Jan and Lich, Thomas and Kirchengast, Martin and Hennecke, Marcus and
-                  Klug, Corina},</p>
-              <p>booktitle = {Proc. of the International Technical Conference on the Enhanced Safety of Vehicles (ESV)},</p>
-              <p>year = {2023}</p>
+              <p class="noindent">@{{ paper.BibTeX_cite }}</p>
+              <p>title = {% raw %}{{{% endraw %}{{ paper.title }}{% raw %}}}{% endraw %},</p>
+              <p>author = {% raw %}{{% endraw %}{{ paper.BibTeX_authors}}{% raw %}}{% endraw %},</p>
+              <p>booktitle = {% raw %}{{% endraw %}{{ paper.journal }}{% raw %}}{% endraw %},</p>
+              <p>year = {% raw %}{{% endraw %}{{ paper.year }}{% raw %}}{% endraw %}</p>
               <p class="noindent">}</p>
-              {% endraw %}
           </div>
       </span>
+      {%- if paper.code -%}
+      <span><a href="{{ paper.code }}" target="_blank">Code</a></span>
+      {%- endif -%}
       </div>
       </div>
       </div>
       </li>
-      
-      <li>
-      <div class="paper">
-      <div class="paper-left">
-        <img src="{{ site.baseurl }}/assets/papers/AVSS2022.png" alt="AVSS2022">
-      </div>
-      <div class="paper-right">
-      <p class="title">A Visual Surveillance System to Observe Realistic Road User Behavior for Improved Pedestrian and Cyclist Safety at Crossroads</p>
-      <p class="authors">N. Kirillova, H. Possegger, H. Bischof</p>    
-      <p class="journal">In Proc. of the IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS), 2022.</p>
-      <div class="citation-container">
-      <span><a href="https://ieeexplore.ieee.org/document/9959562" target="_blank">Paper</a></span>
-      <span><a href="#" onclick="toggleCitation(event)"> Cite this paper</a>
-          <div class="citation-content">
-              {% raw %}
-              <p class="title">BibTeX:</p>
-              <p class="noindent">@inproceedings{kirillova22a,</p>
-              <p>title = {{A Visual Surveillance System to Observe Realistic Road User Behavior
-                             for Improved Pedestrian and Cyclist Safety at Crossroads},</p>
-              <p>author = {Kirillova, Nadezda and Possegger, Horst and Bischof, Horst},</p>
-              <p>booktitle = {Proc. of the IEEE International Conference on Advanced Video and Signal-Based Surveillance (AVSS)},</p>
-              <p>year = {2022}</p>
-              <p class="noindent">}</p>
-              {% endraw %}
-          </div>
-      </span>
-      </div>
-      </div>
-      </div>
-      </li>
+      {% endfor %}
       
     </ul>
 
