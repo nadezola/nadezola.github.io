@@ -145,6 +145,7 @@ $on-laptop:        1000px !default;
   display: none;
   background-color: $grey-color-light;
   min-width: 200px;
+  max-width:600px;
   border: 1px solid $grey-color;
   z-index: 1;
   padding: 10px;
