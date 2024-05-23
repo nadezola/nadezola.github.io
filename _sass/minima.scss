@@ -66,14 +66,14 @@ $on-laptop:        1000px !default;
 
 .left-column {
   width: 30%;
-  padding-right: calc($spacing-unit / 2);
+  padding-right: 15px;
 }
 
 .left-column img {
   width: 180px;
   height: auto;
   border-radius: 50%;
-  padding-bottom: calc($spacing-unit / 2);
+  padding-bottom: 15px;
 }
 
 .right-column {
@@ -93,7 +93,7 @@ $on-laptop:        1000px !default;
 .paper {
   display: flex;
   flex-direction: row;
-  margin: calc($spacing-unit / 2) auto;
+  margin: 15px auto;
   padding: 0;
   max-width: 1000px;
   color: $grey-color-dark;
@@ -107,7 +107,7 @@ $on-laptop:        1000px !default;
 
 .paper-right {
   width: 80%;
-  margin: 0 calc($spacing-unit / 2);
+  margin: 0 15px;
   padding: 0;
 }
 
