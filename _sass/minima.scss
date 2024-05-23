@@ -122,15 +122,6 @@ $on-laptop:        1000px !default;
   margin: 0;
 }
 
-.paper p.reference {
-  font-size: $small-font-size;
-
-}
-
-.paper p.reference span {
-  padding-right: 10pt;
-}
-
 .paper p.journal {
   font-weight: $base-font-weight;
   font-style: italic;
@@ -141,13 +132,30 @@ $on-laptop:        1000px !default;
   color: $text-color;
 }
 
+.citation-container {
+  position: relative;
+  font-size: $small-font-size;
+}
+
+.citation-container span {
+  padding-right: 10pt;
+}
+
 .citation-content {
   display: none;
-  position: absolute;
-  background-color: #f9f9f9;
+  background-color: $grey-color-light;
   min-width: 200px;
-  border: 1px solid #ccc;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid $grey-color;
   z-index: 1;
   padding: 10px;
+}
+
+.citation-content p.noindent{
+  padding: 0;
+  margin: 0;
+}
+
+.citation-content p{
+  padding: 0;
+  margin: 0 20pt;
 }
