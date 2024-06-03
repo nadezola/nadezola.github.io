@@ -21,7 +21,7 @@ methods to provide robust security.
 
 **Symmetric Encryption (by itself is rarely used)**
 
-The same key (secret-key) is used for both encrypting and decrypting the data. 
+The same key (secret-key) is used for both encrypting and decrypting data. 
 This key must be kept secret and shared only between the parties involved 
 in the communication. 
 
@@ -65,6 +65,37 @@ Only the owner of the corresponding private key (you) will be able to access the
 _Note:_ Data can be encrypted with multiple public keys for several decrypters (not only for you).
 
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+### Generating a gpg private & public key pair (Linux)
+
+* ```bash
+  gpg --gen-key
+  ```
+  or
+* ```bash
+  gpg --full-generate-key   # for additional settings such as expired data
+  ``` 
+
+
+### Viewing a key pair in the console
+* ```bash
+  gpg --list-keys
+  gpg --export -a <key-id> 
+  gpg --export-secret-key -a <key-id>
+  ``` 
+
+### Export keys to a file
+* ```bash
+  gpg --export -a <key-id> > public.key
+  gpg --export-secret-key -a <key-id> > private.key
+  ``` 
+or
+* ```bash
+  gpg --export -a -o public.key <key-id>
+  gpg --export-secret-key -a -o private.key <key-id>
+  ``` 
+_Note:_ Now, the public-key can be sent to the encryptor. 
+
+### Decrypting a File
+* ```bash
+  gpg -d <encrypted_input.file> > <decrypted_output.file>
+  ``` 
