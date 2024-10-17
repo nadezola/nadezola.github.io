@@ -1,12 +1,12 @@
-- title: "Into the Fog: Evaluating Multiple Object Tracking Robustness"
-  authors: N. Kirillova, M. J. Mirza, H. Possegger, H. Bischof
-  journal: "arXiv preprint: 2404.10534" 
-  year: 2023
+- title: "Into the Fog: Evaluating Robustness of Multiple Object Tracking"
+  authors: N. Kirillova, M. J. Mirza, H. Bischof, H. Possegger
+  journal: In Proc. of the British Machine Vision Conference (BMVC) 
+  year: 2024
   img: IntoFog2024.png
   alt: IntoFog2024
   link: https://arxiv.org/abs/2404.10534
   BibTeX_cite: article{kirillova23a,
-  BibTeX_authors: Kirillova, Nadezda and Mirza, M. Jehanzeb and Possegger, Horst and Bischof, Horst
+  BibTeX_authors: Kirillova, Nadezda and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst 
 
 
 - title: A Comprehensive Crossroad Camera Dataset to Improve Traffic Safety of Mobility Aid Users
