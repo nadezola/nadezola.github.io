@@ -24,8 +24,20 @@
               <p class="noindent">}</p>
           </div>
       </span>
+      {%- if paper.suppl -%}
+      <span><a href="{{ paper.suppl }}" target="_blank">Supplementary</a></span>
+      {%- endif -%}
+      {%- if paper.poster -%}
+      <span><a href="{{ paper.poster }}" target="_blank">Poster</a></span>
+      {%- endif -%}
+      {%- if paper.video -%}
+      <span><a href="{{ paper.video }}" target="_blank">Video</a></span>
+      {%- endif -%}
       {%- if paper.code -%}
       <span><a href="{{ paper.code }}" target="_blank">Code</a></span>
+      {%- endif -%}
+      {%- if paper.dataset -%}
+      <span><a href="{{ paper.dataset }}" target="_blank">Dataset</a></span>
       {%- endif -%}
       </div>
       </div>

@@ -5,8 +5,9 @@
   img: IntoFog2024.png
   alt: IntoFog2024
   link: https://arxiv.org/abs/2404.10534
-  BibTeX_cite: article{kirillova23a,
-  BibTeX_authors: Kirillova, Nadezda and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst 
+  BibTeX_cite: inproceedings{kirillova24a,
+  BibTeX_authors: Kirillova, Nadezda and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst
+  code: https://github.com/nadezola/intothefog_mot17 
 
 
 - title: A Comprehensive Crossroad Camera Dataset to Improve Traffic Safety of Mobility Aid Users
@@ -18,7 +19,11 @@
   link: https://papers.bmvc2023.org/0743.pdf
   BibTeX_cite: inproceedings{mohr23a,
   BibTeX_authors: Mohr, Ludwig and Kirillova, Nadezda and Possegger, Horst and Bischof, Horst
-  code: https://graz.elsevierpure.com/en/publications/dataset-crossroad-camera-dataset-mobility-aid-users-10
+  suppl: https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0743_supp.zip
+  poster: https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0743_poster.pdf
+  video: https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0743_video.mp4
+  code: https://github.com/nadezola/AttributeClassification
+  dataset: https://doi.org/10.3217/2gat1-pev27
 
 
 - title: Identifying and Extracting Pedestrian Behavior in Critical Traffic Situations
