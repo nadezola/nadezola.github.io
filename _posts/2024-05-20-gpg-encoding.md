@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Unlocking the Power of GPG Encoding for Secure Data Transfering"
+title:  "GPG Encoding"
 date:   2024-05-20 12:56:52
 categories: cybersecurity
 ---
+
+## Unlocking the Power of GPG Encoding for Secure Data Transfering
 
 In an era where data breaches and privacy concerns are widespread,
 keeping our data transfering secure has never been more important. 

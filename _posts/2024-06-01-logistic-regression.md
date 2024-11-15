@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "A Quick and Easy Overview of Logistic Regression"
+title:  "Logistic Regression Guide"
 date:   2024-06-01
 categories: machine learning
 ---
+
+## A Quick and Easy Overview of Logistic Regression
 
 **Logistic regression** is a particular type of **linear classifier**, 
 where the goal is to predict the probability of a binary outcome (yes/no, true/false).

@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Essential Git Commands: A Quick Reference Guide"
+title:  "Git Handbook"
 date:   2024-06-06
 categories: Git
 ---
+
+## Essential Git Commands: A Quick Reference Guide
 
   * [SETUP & INIT](#setup--init)
   * [CHECK IT UP](#check-it-up)
