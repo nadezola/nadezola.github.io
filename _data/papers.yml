@@ -4,9 +4,9 @@
   year: 2024
   img: IntoFog2024.png
   alt: IntoFog2024
-  link: https://arxiv.org/abs/2404.10534
-  BibTeX_cite: inproceedings{kirillova24a,
-  BibTeX_authors: Kirillova, Nadezda and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst
+  link: https://bmvc2024.org/proceedings/362
+  BibTeX_cite: inproceedings{Kirillova_2024_BMVC,
+  BibTeX_authors: **Kirillova, Nadezda** and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst
   code: https://github.com/nadezola/intothefog_mot17 
 
 
