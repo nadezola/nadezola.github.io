@@ -111,10 +111,15 @@ $on-laptop:        1000px !default;
   padding: 0;
 }
 
-.paper p.title {
+.paper-right p.title {
   font-weight: $base-font-weight * 1.5;
   margin: 0;
 
+}
+
+.paper-right .content-offset {
+  margin-left: 30pt;
+  margin-top: 5pt;
 }
 
 .paper p.authors {

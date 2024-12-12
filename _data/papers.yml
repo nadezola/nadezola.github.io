@@ -4,9 +4,10 @@
   year: 2024
   img: IntoFog2024.png
   alt: IntoFog2024
-  link: https://bmvc2024.org/proceedings/362
+  paper: https://doi.org/10.48550/arXiv.2404.10534 
   BibTeX_cite: inproceedings{Kirillova_2024_BMVC,
   BibTeX_authors: Kirillova, Nadezda** and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst
+  proceed: https://bmvc2024.org/proceedings/362
   code: https://github.com/nadezola/intothefog_mot17 
 
 
@@ -16,7 +17,7 @@
   year: 2023
   img: BMVC2023.png
   alt: BMVC2023
-  link: https://papers.bmvc2023.org/0743.pdf
+  paper: https://papers.bmvc2023.org/0743.pdf
   BibTeX_cite: inproceedings{mohr23a,
   BibTeX_authors: Mohr, Ludwig and Kirillova, Nadezda and Possegger, Horst and Bischof, Horst
   suppl: https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0743_supp.zip
@@ -32,7 +33,7 @@
   year: 2023
   img: ITSC2023.png
   alt: ITSC2023
-  link: https://ieeexplore.ieee.org/abstract/document/10421799
+  paper: https://ieeexplore.ieee.org/abstract/document/10421799
   BibTeX_cite: inproceedings{schachner23b,
   BibTeX_authors: Schachner, Martin and Schneider, Bernd and Wei{\ss}enbacher, Fabian and Kirillova, Nadezda and Possegger, Horst and Bischof, Horst and Klug, Corina
 
@@ -43,7 +44,7 @@
   year: 2023
   img: ESV2023.jpg
   alt: ESV2023
-  link: https://www-nrd.nhtsa.dot.gov/departments/esv/27th/
+  proceed: https://www-nrd.nhtsa.dot.gov/departments/esv/27th/
   BibTeX_cite: inproceedings{schachner23a,
   BibTeX_authors: Schachner, Martin and Kirillova, Nadezda and Wei{\ss}enbacher, Fabian and Schneider, Bernd and Possegger, Horst and Bischof, Horst and Aichberger, Arno and Magosi, Zoltan Ferenc and Dobberstein, Jan and Lich, Thomas and Kirchengast, Martin and Hennecke, Marcus and Klug, Corina
 
@@ -54,6 +55,6 @@
   year: 2022
   img: AVSS2022.jpg
   alt: AVSS2022
-  link: https://ieeexplore.ieee.org/document/9959562
+  paper: https://ieeexplore.ieee.org/document/9959562
   BibTeX_cite: inproceedings{kirillova22a,
   BibTeX_authors: Kirillova, Nadezda and Possegger, Horst and Bischof, Horst
