@@ -47,13 +47,13 @@ categories: Git
 
 ### SIMPLE PUSH
 
-| Command                                                                                                                        | Description                                                                                                                                        |
-|:-------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
-| $ **git add .**                                                                                                                | Specify files to be committed                                                                                                                      |
-| $ **git commit -m "**Message**"**                                                                                              | Make a commit                                                                                                                                      |
-| $ **git pull**                                                                                                                 | Download changes from a remote repo                                                                                                                |
-| $ **git push** [remote_repo] \<branch name>  <br/> _Ex.:<br/> $ **git push origin main** <br/> $ **git push upstream main**_ | Upload changes to a remote repo <br/><br/> :: _Push to remote repo "origin" branch "main"_ <br/> :: _Push to remote repo "upstream" branch "main"_ |
-| _or_ <br/> $ **git push -u origin main** _(once)_ <br/>$ **git push**  _(all next times)_                                      | Upload changes to a remote repo "origin" branch "main" and set this reference for future                                                           |
+| Command                                                                                                                      | Description                                                                                                                                        |
+|:-----------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------|
+| $ **git add .**                                                                                                              | Specify files to be committed                                                                                                                      |
+| $ **git commit -m "**Message**"**                                                                                            | Make a commit                                                                                                                                      |
+| $ **git pull**                                                                                                               | Download changes from a remote repo                                                                                                                |
+| $ **git push** [remote_repo] \<branch_name>  <br/> _Ex.:<br/> $ **git push origin main** <br/> $ **git push upstream main**_ | Upload changes to a remote repo <br/><br/> :: _Push to remote repo "origin" branch "main"_ <br/> :: _Push to remote repo "upstream" branch "main"_ |
+| _or_ <br/> $ **git push -u origin main** _(once)_ <br/>$ **git push**  _(all next times)_                                    | Upload changes to a remote repo "origin" branch "main" and set this reference for future                                                           |
 
 
 ### GLOBAL .gitignore
@@ -86,10 +86,13 @@ categories: Git
 
 ### BRANCHES
 
-| Command                                                                  | Description                                                                                             |
-|:-------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
-| $ **git checkout -b** \<branch_name>                                     | Create and switch to a new branch                                                                       |
-| $ **git push origin** \<branch_name>                                     | Upload changes from the local branch to the remote branch on the "origin" repo                          |
-| $ **git push -u origin** \<branch_name><br/>_Next times:_ $ **git push** | Upload changes from the local branch to a remote repo “origin/branch” and set this reference for future |
-| $ **git checkout** \<branch_name> <br/> $ **git merge** \<main_name>     | Take changes from a main branch                                                                         |
-| $ **git checkout** \<main_name> <br/> $ **git branch -d** \<branch_name> | Delete  branch                                                                                          |
+| Command                                                                                         | Description                                                                                             |
+|:------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------|
+| $ **git checkout -b** \<branch_name>                                                            | Create and switch to a new branch                                                                       |
+| $ **git push origin** \<branch_name>                                                            | Upload changes from the local branch to the remote branch on the "origin" repo                          |
+| $ **git push -u origin** \<branch_name><br/>_Next times:_ $ **git push**                        | Upload changes from the local branch to a remote repo “origin/branch” and set this reference for future |
+| $ **git checkout** \<branch_name> <br/> $ **git merge** \<main_branch_name>                     | Take changes from a main branch                                                                         |
+| $ **git checkout** \<main_branch_name> <br/> $ **git branch -d** \<branch_name>                 | Delete  branch                                                                                          |
+| $ **git stash** <br/> $ **git checkout** \<branch_name>                                         | Save uncommitted changes without committing them and <br/> switch to another branch                     |
+| $ **git checkout** \<branch_name> <br/> $ **git stash pop**                                     | Return to the branch and <br/> restore saved uncommitted changes                                        |
+| $ **git checkout** \<main_branch_name> <br/> $ **git pull** <br/>$ **git merge** \<branch_name> | Merge branch to the main branch                                                                         |
