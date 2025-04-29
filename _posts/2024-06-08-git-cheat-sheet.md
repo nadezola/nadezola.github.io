@@ -95,6 +95,7 @@ categories: Git
 | $ **git checkout** \<main_branch_name> <br/> $ **git branch -d** \<branch_name>                 | Delete  branch                                                                                          |
 | $ **git stash** <br/> $ **git checkout** \<branch_name>                                         | Save uncommitted changes without committing them and <br/> switch to another branch                     |
 | $ **git stash show**                                                                            | Show a summary of what changes are in a stash                                                           |
+| $ **git stash clear**                                                                           | Delete the whole stash                                                                                  |
 | $ **git checkout** \<branch_name> <br/> $ **git stash pop**                                     | Return to the branch and <br/> restore saved uncommitted changes                                        |
 | $ **git restore** \<file_name>                                                                  | Return the file to its original (last committed) version                                                |
 | $ **git restore \--staged** \<file_name>                                                        | Return the file to its original version if the file has already been added to the stage using _git add_ |
