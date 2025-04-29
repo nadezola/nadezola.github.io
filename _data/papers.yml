@@ -4,9 +4,11 @@
   year: 2024
   img: IntoFog2024.png
   alt: IntoFog2024
-  paper: https://doi.org/10.48550/arXiv.2404.10534 
+  paper: https://bmva-archive.org.uk/bmvc/2024/papers/Paper_362/paper.pdf 
   BibTeX_cite: inproceedings{Kirillova_2024_BMVC,
   BibTeX_authors: Kirillova, Nadezda** and Mirza, M. Jehanzeb and Bischof, Horst and Possegger, Horst
+  suppl: https://bmva-archive.org.uk/bmvc/2024/papers/Paper_362/supplementary362.pdf
+  poster: https://bmva-archive.org.uk/bmvc/2024/papers/Paper_362/poster.pdf
   proceed: https://bmvc2024.org/proceedings/362
   code: https://github.com/nadezola/intothefog_mot17 
 
