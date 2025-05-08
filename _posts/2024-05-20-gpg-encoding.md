@@ -2,7 +2,7 @@
 layout: post
 title:  "GPG Encoding"
 date:   2024-05-20 12:56:52
-categories: cybersecurity
+categories: DevTools
 ---
 
 ## Unlocking the Power of GPG Encoding for Secure Data Transfering

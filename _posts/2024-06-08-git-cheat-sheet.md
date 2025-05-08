@@ -2,7 +2,7 @@
 layout: post
 title:  "Git Handbook"
 date:   2024-06-06
-categories: Git
+categories: DevTools
 ---
 
 ## Essential Git Commands: A Quick Reference Guide

@@ -2,7 +2,7 @@
 layout: post
 title:  "Logistic Regression Guide"
 date:   2024-06-01
-categories: machine learning
+categories: ML
 ---
 
 ## A Quick and Easy Overview of Logistic Regression
@@ -15,7 +15,7 @@ where the goal is to predict the probability of a binary outcome (yes/no, true/f
 A linear classifier utilies a linear function to separate classes by a line 
 (or a hyperplane in higher dimensions): `z(x) = wx + b`:
 
-<img src="/assets/posts/logistic-1.jpg" width="400"/>
+<img src="/assets/posts/logistic-1.jpg" style="display: block; margin: 0 auto;"/>
 
 Here, `w` is the weight vector and `b` is the bias term.
 
@@ -34,15 +34,15 @@ our prediction is `y = 1`.
 Thus, we are getting the **threshold function** to map the continuous 
 values of linear decision `z(x)` to binary predictions `y`:
 
-<img src="/assets/posts/logistic-2.jpg" width="400"/>
+<img src="/assets/posts/logistic-2.jpg" style="display: block; margin: 0 auto;"/>
 
 ### Logistic Regression
 
 Logistic regression is a particular type of linear classifier, 
 where we replace the simple threshold function with a **sigmoid function**:
- <img src="/assets/posts/logistic-3a.jpg" width="100"/>
+ <img src="/assets/posts/logistic-3a.jpg" style="display: block; margin: auto;"/>
 
-<img src="/assets/posts/logistic-3.jpg" width="400"/>
+<img src="/assets/posts/logistic-3.jpg" style="display: block; margin: 0 auto;"/>
 
 Since the sigmoid fuction returnes a real number in the range `(0, 1)`,
 we can concider this value as a **confidence score** for the class. 
