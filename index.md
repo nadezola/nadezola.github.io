@@ -28,7 +28,8 @@ Our team works closely with leading industry partners such as Infineon, AVL, ASF
 and others, collaborating to develop and transfer cutting-edge technologies into real-world 
 industrial applications.
 
-We also collaborate on government- and city-funded projects, integrating smart technologies 
-into traffic management and urban planning to enhance road user safety,
-especially for pedestrians and cyclists. 
+We also collaborate on government- and city — funded projects, integrating smart technologies 
+into sustainable traffic management and urban planning to enhance road user safety,
+especially for pedestrians and cyclists — with a strong focus on climate action, 
+environmental protection, energy efficiency, and sustainable mobility.
 
