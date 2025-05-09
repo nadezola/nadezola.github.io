@@ -21,7 +21,7 @@ Kolmogorov, Chebyshev, and many other outstanding mathematicians who worked ther
 My primary research interests lie in Deep Neural Networks (AI) for Computer Vision, with a particular focus
 on Multiple Object Detection and Tracking, Human Pose Estimation, 
 Attribute Recognition, Instance Segmentation, and Domain Adaptation.
-These methods have applications in Intelligent Video Surveillance Systems, Autonomous Driving, 
+The methods have applications in Intelligent Video Surveillance Systems, Autonomous Driving, 
 and Automated Industrial Processing.
 
 
