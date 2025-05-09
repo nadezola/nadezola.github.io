@@ -29,7 +29,7 @@ Our team works closely with leading industry partners such as [Infineon Technolo
 [Saubermacher Dienstleistungs AG](https://saubermacher.at/),and others, collaborating to develop and transfer cutting-edge technologies 
 into real-world industrial applications.
 
-We also collaborate on government- and city — funded projects (e.g., from the [Federal Ministry for Climate Protection, 
+We also collaborate on government- and city- funded projects (e.g., from the [Federal Ministry for Climate Protection, 
 Environment, Energy, Mobility, Innovation and Technology (BMK)](https://www.bmimi.gv.at/en.html)), 
 integrating smart technologies into sustainable traffic management and urban planning to enhance road user safety,
 especially for pedestrians and cyclists — with a strong focus on climate action, 
