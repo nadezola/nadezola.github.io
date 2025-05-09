@@ -7,19 +7,19 @@ layout: home
 
 ## About
 
-Currently, I am working as a Project Assistant at the [Institute of Computer Graphics and Vision](https://www.tugraz.at/institute/icg/home) 
+Currently, I am working as a Project Assistant at the [Institute of Visual Computing](https://www.tugraz.at/institute/icg/home) 
 at [Graz University of Technology](https://en.wikipedia.org/wiki/Graz_University_of_Technology), Austria. 
 
-I am also pursuing a PhD in Computer Science under the supervision of [Prof. Dr. Horst Bischof](https://en.wikipedia.org/wiki/Horst_Bischof),
-the current rector of [Graz University of Technology](https://en.wikipedia.org/wiki/Graz_University_of_Technology), and I am proud to work under his guidance. 
+Alongside my work, I am pursuing a PhD in Computer Science under the supervision of [Prof. Dr. Horst Bischof](https://en.wikipedia.org/wiki/Horst_Bischof)
+(currently the rector of [Graz University of Technology](https://en.wikipedia.org/wiki/Graz_University_of_Technology)) within the team of [Dr. Horst Possegger](https://snototter.github.io/research/). 
 
 I received my master's degree in Mathematics from [M.V.Lomonosov Moscow State University
-(MSU)](https://en.wikipedia.org/wiki/Moscow_State_University), graduating from the [Faculty of Mechanics and Mathematics](https://en.wikipedia.org/wiki/MSU_Faculty_of_Mechanics_and_Mathematics),
-which is also the alma mater of such outstanding mathematicians as Kolmogorov, Chebyshev, and many others.
+(MSU)](https://en.wikipedia.org/wiki/Moscow_State_University), graduating from the [Faculty of Mechanics and Mathematics](https://en.wikipedia.org/wiki/MSU_Faculty_of_Mechanics_and_Mathematics) — an institution known for producing outstanding mathematicians such as Kolmogorov, Chebyshev, and many others..
 
-My primary research interests focus on Deep Neural Networks 
-in the field of Computer Vision, particularly in Multiple Object Detection and Tracking, 
-Human Attribute Recognition, Human Pose Estimation, and Domain Adaptation, with applications 
-to Intelligent Video Surveillance Systems, Autonomious Driving, and Robotics.
+My primary research interests lie in Deep Neural Networks (AI) for Computer Vision, with a particular focus
+on Multiple Object Detection and Tracking, Human Pose Estimation, 
+Attribute Recognition, Instance Segmentation, and Domain Adaptation.
+These methods have applications in Intelligent Video Surveillance Systems, Autonomious Driving, 
+and Automated Industrial Processing.
 
 
