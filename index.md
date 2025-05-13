@@ -24,14 +24,13 @@ Attribute Recognition, Instance Segmentation, Domain Adaptation, and Visual Lang
 The methods have applications in Intelligent Video Surveillance Systems, Autonomous Driving, 
 and Automated Industrial Processing.
 
-Our team works closely with leading industry partners such as [Infineon Technologies Austria AG](https://www.infineon.com/), 
-[AVL List GmbH](https://www.avl.com/en), [ASFINAG Bau Management GmbH](https://www.asfinag.at/), [KNAPP AG](https://www.knapp.com/en/), 
-[Saubermacher Dienstleistungs AG](https://saubermacher.at/),and others, to develop and transfer cutting-edge technologies 
+Our team works closely with leading industry partners such as [Infineon Technologies](https://www.infineon.com/), 
+[AVL List](https://www.avl.com/en), [ASFINAG](https://www.asfinag.at/), [KNAPP](https://www.knapp.com/en/), 
+[Saubermacher](https://saubermacher.at/), and others, to develop and transfer cutting-edge technologies 
 into real-world industrial applications.
 
-We also collaborate on government- and city-funded projects (e.g., from the [Federal Ministry for Climate Protection, 
+We also collaborate on government- and city-funded projects (e.g., by the [Federal Ministry for Climate Protection,
 Environment, Energy, Mobility, Innovation and Technology (BMK)](https://www.bmimi.gv.at/en.html)), 
-integrating smart technologies into sustainable traffic management and urban planning to enhance road user safety,
-especially for pedestrians and cyclists, with a strong focus on climate action, 
-environmental protection, energy efficiency, and sustainable mobility.
+integrating smart technologies into sustainable traffic management and urban planning to enhance road-user safety,
+especially for pedestrians and cyclists.
 
