@@ -167,13 +167,15 @@ $on-laptop:        1000px !default;
 }
 
 .projects-section {
-  margin-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: center;
 }
 
 .project-card {
