@@ -1,0 +1,41 @@
+- title: Multimodal Domain Adaptation for Air Traffic Management
+  img:  airplane.jpg
+
+- title: Fog Simulation for Testing Vision-Based AI Systems
+  img: fog.jpg
+
+- title: Monocular Depth Estimation in Real-World Environments
+  img: depth.jpg
+
+- title: Tracking Road Users for Improved Traffic Safety
+  img: tracking.jpg
+
+- title: Understanding Pedestrian Behavior at Crosswalks
+  img: bev.jpg
+
+- title: Safety Crosswalks Planning Using Movement Patterns
+  img: trajectory_map.jpg
+
+- title: Compliance with Traffic Light Signals for Pedestrian Safety
+  img: goatred.jpg
+
+- title: Pedestrian Awareness of Approaching Vehicle and Traffic Risks
+  img: viewing_direction.jpg
+
+- title: Pedestrian Distractions in Traffic Environments
+  img: par.jpg
+
+- title: Traffic Safety for People with Limited Mobility
+  img: wheelchair.jpg
+
+- title: Enhancing Pedestrian Monitoring with ToF Sensors
+  img: pose.jpg
+
+- title: Improving Detection of Pedestrians and Cyclists with LiDAR
+  img: lidar.jpg
+
+- title: Camera – LiDAR Calibration for Multisensor Perception Systems
+  img: lidar_camera.jpg
+
+- title: Cross-View Calibration Between In-Vehicle and Roadside Cameras
+  img: camera_calibration.jpg
