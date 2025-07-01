@@ -200,3 +200,27 @@ $on-laptop:        1000px !default;
 .project-card p.title {
   margin-top: 1rem;
 }
+
+@media screen and (max-width: 600px) {
+  .paper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .paper-left,
+  .paper-right {
+    width: 100%;
+    margin: 0;
+    padding: 5pt;
+  }
+
+  .paper-right {
+    text-align: center;
+  }
+
+  .paper-left img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+}
