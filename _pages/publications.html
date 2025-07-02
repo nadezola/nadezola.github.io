@@ -1,0 +1,63 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<div class="publications">
+    <h2>Publications</h2>
+    <ul>
+    {% for paper in site.data.papers %}
+      <li>
+      <div class="paper">
+      <div class="paper-left">
+        <img src="{{ site.baseurl }}/assets/papers/{{ paper.img }}" alt="{{ paper.alt }}">
+      </div>
+      <div class="paper-right">
+      <p class="title">{{ paper.title }}</p>
+      <div class="content-offset">
+	      <p class="authors">{{ paper.authors  | replace: "N. Kirillova", "<strong>N. Kirillova</strong>" }}</p>
+	      <p class="journal">{{ paper.journal }}, {{ paper.year }}</p>
+	      <div class="citation-container">
+	      {%- if paper.paper -%}
+	      <span><a href="{{ paper.paper }}" target="_blank">Paper</a></span>
+	      {%- endif -%}
+	      {%- if paper.proceed -%}
+	      <span><a href="{{ paper.proceed }}" target="_blank">Proceedings</a></span>
+	      {%- endif -%}
+	      <span><a href="#" onclick="toggleCitation(event)"> Cite this paper</a>
+		  <div class="citation-content">
+		      <p class="title">BibTeX:</p>
+		      <p class="noindent">@{{ paper.BibTeX_cite }}</p>
+		      <p>title = {% raw %}{{{% endraw %}{{ paper.title }}{% raw %}}}{% endraw %},</p>
+		      <p>author = {% raw %}{{% endraw %}{{ paper.BibTeX_authors}}{% raw %}}{% endraw %},</p>
+		      <p>booktitle = {% raw %}{{% endraw %}{{ paper.journal }}{% raw %}}{% endraw %},</p>
+		      <p>year = {% raw %}{{% endraw %}{{ paper.year }}{% raw %}}{% endraw %}</p>
+		      <p class="noindent">}</p>
+		  </div>
+	      </span>
+	      {%- if paper.suppl -%}
+	      <span><a href="{{ paper.suppl }}" target="_blank">Supplementary</a></span>
+	      {%- endif -%}
+	      {%- if paper.poster -%}
+	      <span><a href="{{ paper.poster }}" target="_blank">Poster</a></span>
+	      {%- endif -%}
+	      {%- if paper.video -%}
+	      <span><a href="{{ paper.video }}" target="_blank">Video</a></span>
+	      {%- endif -%}
+	      {%- if paper.code -%}
+	      <span><a href="{{ paper.code }}" target="_blank">Code</a></span>
+	      {%- endif -%}
+	      {%- if paper.dataset -%}
+	      <span><a href="{{ paper.dataset }}" target="_blank">Dataset</a></span>
+	      {%- endif -%}
+      </div>	
+      </div>
+      </div>
+      </div>
+      </li>
+      {% endfor %}
+      
+    </ul>
+
+</div>
