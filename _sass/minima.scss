@@ -220,3 +220,76 @@ $on-laptop:        1000px !default;
     object-fit: contain;
   }
 }
+
+.thesis {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.thesis .lead {
+  margin-bottom: 2rem;
+}
+
+.thesis h3 {
+  margin: 0 0 0.5rem;
+}
+
+.thesis-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
+.thesis-card {
+  flex: 1 1 calc(48% - 1rem);
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 0 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+
+.thesis-left {
+  flex-shrink: 0;
+  width: 120px;
+  overflow: hidden;
+}
+
+.thesis-left img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0 0 0.5rem 0;
+}
+
+.thesis-right {
+  flex: 1;
+  padding: 0 0 0 0.5rem;
+}
+
+.thesis .description {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.thesis .type {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+@media screen and (max-width: 600px) {
+  .thesis-card {
+    flex: 1 1 calc(50% - 1.5rem);
+  }
+  
+    .thesis-grid {
+    flex-direction: column;
+  }
+
+}
+
