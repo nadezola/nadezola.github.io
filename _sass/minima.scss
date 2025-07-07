@@ -259,11 +259,16 @@ $on-laptop:        1000px !default;
   overflow: hidden;
 }
 
+.thesis-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .thesis-left img {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
-  margin: 0 0 0.5rem 0;
 }
 
 .thesis-right {
@@ -291,11 +296,15 @@ $on-laptop:        1000px !default;
     flex-direction: column;
   }
   
- .thesis-left {
+  .thesis-images {
     flex-direction: row;
     gap: 10px;
   }
 
+  .thesis-images img {
+    width: 50%;
+    margin: 0;
+  }
 
 }
 
