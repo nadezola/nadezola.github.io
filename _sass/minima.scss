@@ -297,12 +297,17 @@ $on-laptop:        1000px !default;
     flex-direction: column;
   }
   
+  .thesis-left {
+    width: 100%; 
+  }
+  
   .thesis-images {
     flex-direction: row;
     gap: 10px;
   }
 
   .thesis-images img {
+    width: 50%;
     margin: 0;
   }
 
