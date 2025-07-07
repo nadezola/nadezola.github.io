@@ -269,6 +269,7 @@ $on-laptop:        1000px !default;
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
+  margin: 0 0 0.5rem 0;
 }
 
 .thesis-right {
@@ -301,6 +302,10 @@ $on-laptop:        1000px !default;
     gap: 10px;
   }
 
+  .thesis-images img {
+    width: 50%;
+    margin: 0;
+  }
 
 }
 
