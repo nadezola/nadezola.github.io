@@ -287,9 +287,15 @@ $on-laptop:        1000px !default;
     flex: 1 1 calc(50% - 1.5rem);
   }
   
-    .thesis-grid {
+  .thesis-grid {
     flex-direction: column;
   }
+  
+ .thesis-left {
+    flex-direction: row;
+    gap: 10px; /* optional spacing between images */
+  }
+
 
 }
 
