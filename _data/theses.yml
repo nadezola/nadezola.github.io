@@ -1,7 +1,8 @@
 - title: "Multimodal Domain Adaptation for Enhancing Airplane Detection and Tracking"
   type: Bachelor Thesis / Seminar Project / Master Thesis 
   img1: airplane.jpg
-  img2: airport.jpg
+  img2: airport2.jpg
+  pdf: StudentProjects_Airport.pdf
   description: This project aims to enhance airplane detection and tracking in surveillance videos across various airport environments by integrating multiple information cues, such as radar data, textual descriptions, tower communications, and more.
 
 - title: "Towards Robust Human Pose Estimation on Noisy ToF Sensor Data"

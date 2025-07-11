@@ -23,7 +23,13 @@ permalink: /theses/
                   </div>
                 </div>
                 <div class="thesis-right">
-      	            <h4 class="thesis">{{ thesis.title }}</h4>
+      	            <h4 class="thesis">
+      	            {% if thesis.pdf %}
+      	              <a href="{{ site.baseurl }}/assets/theses/{{ thesis.pdf }}" target="_blank">{{ thesis.title }}</a>
+      	            {% else %}
+      	              {{ thesis.title }}
+      	            {% endif %}
+      	            </h4>
                     <div class="content-offset">
 	                <p class="description">{{ thesis.description }}</p>
 	                <p class="type">{{ thesis.type }}</p>
