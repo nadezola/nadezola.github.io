@@ -1,3 +1,10 @@
+- title: "Road User Trajectory Consistency in Multi-View Surveillance Systems"
+  type: Bachelor Thesis / Seminar Project 
+  img1: tracking.jpg
+  img2: bev.jpg
+  pdf: StudentProjects_Surveillance.pdf
+  description: This project aims to advance traffic safety for vulnerable road users through the integration of multi-camera surveillance systems and supporting data-driven Smart City planning.
+  
 - title: "Multimodal Domain Adaptation for Enhancing Airplane Detection and Tracking"
   type: Bachelor Thesis / Seminar Project / Master Thesis 
   img1: airplane.jpg
@@ -9,4 +16,12 @@
   type: Bachelor Thesis / Seminar Project / Master Thesis 
   img1: pose.jpg
   img2: tof.jpg
+  pdf: StudentProjects_HumanPose.pdf
   description: This project focuses on understanding the performance of black-box models for human pose estimation on noisy depth data acquired from Time-of-Flight (ToF) systems.
+
+- title: "Pedestrian Attention and Risk Behavior at Urban Intersections"
+  type: Bachelor Thesis / Seminar Project / Master Thesis
+  img1: viewing_direction.jpg
+  img2: par.jpg
+  pdf: StudentProjects_Gaze.pdf
+  description: This project focuses on assessing traffic risks through pedestrian behavior analysis, leveraging the integration of multi-camera surveillance systems. Is the pedestrian aware of an approaching vehicle? Do distractions such as looking at a smartphone or wearing headsets reduce situational awareness?
