@@ -20,7 +20,7 @@
   description: This project focuses on understanding the performance of black-box models for human pose estimation on noisy depth data acquired from Time-of-Flight (ToF) systems.
 
 - title: "Pedestrian Attention and Risk Behavior at Urban Intersections"
-  type: Bachelor Thesis / Seminar Project / Master Thesis
+  type: Bachelor Thesis / Seminar Project
   img1: viewing_direction.jpg
   img2: par.jpg
   pdf: StudentProjects_Gaze.pdf
