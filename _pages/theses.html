@@ -39,4 +39,38 @@ permalink: /theses/
         </div>
     {% endfor %}
     </div>
+   
+   <br><br>
+    <h3>Taken or Completed Student Theses:</h3>
+    
+    <div class="thesis-grid">
+    {% for thesis in site.data.theses_completed %}
+        <div class="thesis-card">
+            <article class="paper">
+                <div class="thesis-left">
+                  <div class="thesis-images">
+                    <img src="{{ site.baseurl }}/assets/projects/{{ thesis.img1 }}"
+                         alt="">
+                    <img src="{{ site.baseurl }}/assets/projects/{{ thesis.img2 }}"
+                         alt="">
+                  </div>
+                </div>
+                <div class="thesis-right">
+      	            <h4 class="thesis">
+      	            {% if thesis.pdf %}
+      	              <a href="{{ site.baseurl }}/assets/theses/{{ thesis.pdf }}" target="_blank">{{ thesis.title }}</a>
+      	            {% else %}
+      	              {{ thesis.title }}
+      	            {% endif %}
+      	            </h4>
+                    <div class="content-offset">
+	                <p class="description">{{ thesis.description }}</p>
+	                <p class="type">{{ thesis.type }}</p>
+                    </div>	
+                </div>
+            </article>
+        </div>
+    {% endfor %}
+    </div>
+
 </div>

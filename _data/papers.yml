@@ -1,3 +1,23 @@
+- title: "A Synthetic Multi-View Tracking and 3D Pose Dataset for Automated Airport Visual Surveillance"
+  authors: A. Mansour, C.Beleznai, F. F. Oberweger, V. Widhalm, N. Kirillova, H. Possegger
+  journal: In Proc. of the Middle-European Conference on Applied Theoretical Computer Science (MATCOS) 
+  year: IS-2025
+  img: MATCOS.jpg
+  alt: SyntheticDataset2025
+  BibTeX_cite: inproceedings{Beleznai2025,
+  BibTeX_authors: Mansour, Ahmed and Beleznai, Csaba and Francisco Oberweger, Fabio and Widhalm, Verena and Kirillova, Nadezda and Possegger, Horst
+  proceed: https://is.ijs.si/wp-content/uploads/2025/11/IS2025_Volume-N.pdf
+  code: https://github.com/cbelez/AirTrackSim25
+
+- title: "Long-term observation to evaluate cyclist behaviour at RTOR junction in Austria"
+  authors: E. Tomasch, B. Schneider, H.  Hoschopf, N. Kirillova, H. Possegger
+  journal: In Proc. of International Cycling Safety Conference (ICSC)
+  year: 2025
+  img: ICSC.jpg
+  alt: CyclingSafety2025
+  BibTeX_cite: inproceedings{Tomasch2025,
+  BibTeX_authors: Tomasch, Ernst and Schneider, Bernd and Hoschopf, Heinz and Kirillova, Nadezda and Possegger, Horst
+
 - title: "Into the Fog: Evaluating Robustness of Multiple Object Tracking"
   authors: N. Kirillova, M. J. Mirza, H. Bischof, H. Possegger
   journal: In Proc. of the British Machine Vision Conference (BMVC) 
