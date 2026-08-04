@@ -7,28 +7,28 @@ layout: home
 
 ## About
 
-I am currently working as a Project Assistant at the [Institute of Visual Computing](https://www.tugraz.at/institute/icg/home) 
-at [Graz University of Technology](https://en.wikipedia.org/wiki/Graz_University_of_Technology), Austria. 
+I am a Computer Vision and AI researcher with several years of experience developing deep learning solutions 
+for real-world industrial applications. 
 
-Alongside my work, I am pursuing a PhD in Computer Science under the supervision of [Prof. Dr. Horst Bischof](https://en.wikipedia.org/wiki/Horst_Bischof)
-(currently the rector of [Graz University of Technology](https://en.wikipedia.org/wiki/Graz_University_of_Technology)) and [Dr. Horst Possegger](https://snototter.github.io/research/). 
+I currently work as a Project Assistant at the [Institute of Visual Computing](https://ivc.tugraz.at/) 
+at Graz University of Technology, Austria, while pursuing a PhD in Computer Science under the supervision of 
+Prof. Dr. Horst Bischof and Dr. Horst Possegger. 
+I received my Master's degree in Mathematics and Applied Mathematics from [M.V.Lomonosov Moscow State University
+(MSU)](https://msu.ru/en/), graduating from the Faculty of Mechanics and Mathematics.
 
-I received my master's degree in Mathematics from [M.V.Lomonosov Moscow State University
-(MSU)](https://en.wikipedia.org/wiki/Moscow_State_University), graduating from the [Faculty of Mechanics and Mathematics](https://en.wikipedia.org/wiki/MSU_Faculty_of_Mechanics_and_Mathematics) — a globally recognized
-university with a strong reputation in academic and research mathematical circles, known since the time of
-Kolmogorov, Chebyshev, and many other outstanding mathematicians who worked there.
+My work focuses on computer vision systems that bridge cutting-edge research and industrial deployment. 
+My research interests include visual foundation models, vision-language models, 
+multiple object detection and tracking, domain adaptation, 
+and automated visual inspection for industrial environments.
 
-My primary research interests lie in Deep Neural Networks (AI) for Intelligent Video Surveillance Systems, 
-Autonomous Driving, and Automated Industrial Processing, with a particular focus
-on video scene understanding, multiple object detection and tracking, and domain adaptation.
+In recent years, I have worked on AI solutions for intelligent transportation systems, visual surveillance, 
+automated textile inspection, and autonomous driving. 
+At TU Graz, we collaborate with industrial partners including [Infineon Technologies](https://www.infineon.com/), [AVL](https://www.avl.com/en), 
+[ASFINAG](https://www.asfinag.at/), [KNAPP](https://www.knapp.com/en/), and [Saubermacher](https://saubermacher.at/), contributing to projects that transfer state-of-the-art 
+AI technologies into practical applications. 
+My experience spans the complete AI development pipeline -- from data acquisition and dataset creation to model design, 
+evaluation, and deployment in industrial and public-sector projects.
 
-Our team works closely with leading industry partners such as [Infineon Technologies](https://www.infineon.com/), 
-[AVL List](https://www.avl.com/en), [ASFINAG](https://www.asfinag.at/), [KNAPP](https://www.knapp.com/en/), 
-[Saubermacher](https://saubermacher.at/), and others, to develop and transfer cutting-edge technologies 
-into real-world industrial applications.
-
-We also collaborate on government- and city-funded projects (e.g., by the [Federal Ministry for Climate Protection,
-Environment, Energy, Mobility, Innovation and Technology (BMK)](https://www.bmimi.gv.at/en.html)), 
-integrating smart technologies into sustainable traffic management and urban planning to enhance road-user safety,
-especially for pedestrians and cyclists.
+I am passionate about developing reliable and scalable AI systems that create measurable value beyond 
+the laboratory and help solve challenging real-world problems.
 
