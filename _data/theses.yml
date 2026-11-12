@@ -11,3 +11,10 @@
   img2: garment_synth2.png
   pdf: StudentProjects_Textile-2.pdf
   description: This project investigates the impact of synthetic data augmentation on training deep learning models for brand marker and defect detection in second-hand garments. 
+  
+- title: "Human Visual Attention Analysis During Garment Inspection Using Smart Glasses"
+  type: Bachelor Thesis
+  img1: glasses_1.png
+  img2: glasses_2.png
+  pdf: StudentProjects_Aria2.pdf
+  description: This project investigates human visual attention during garment inspection using smart glasses to understand human inspection behavior and support future robotic training.
