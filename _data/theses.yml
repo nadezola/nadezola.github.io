@@ -5,7 +5,7 @@
   pdf: StudentProjects_Textile.pdf
   description: This project applies computer vision and deep learning to automate the identification and sorting reusable garments, reducing textile waste and conserving resources at an industrial scale.
   
-- title: "Synthetic Data for Defect Detection in Second-Hand Garments"
+- title: "Synthetic Data for Enhanced Defect Detection in Second-Hand Garments"
   type: Bachelor Thesis
   img1: garment_synth1.png
   img2: garment_synth2.png
