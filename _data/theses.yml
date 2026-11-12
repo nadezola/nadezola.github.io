@@ -1,10 +1,3 @@
-- title: "Deep Learning for Sorting and Damage Detection in Second-Hand Garments"
-  type: Bachelor Thesis / Seminar Project / Master Thesis 
-  img1: garment_hm.jpg
-  img2: garment_band.jpg
-  pdf: StudentProjects_Textile.pdf
-  description: This project applies computer vision and deep learning to automate the identification and sorting reusable garments, reducing textile waste and conserving resources at an industrial scale.
-  
 - title: "Synthetic Data for Enhanced Defect Detection in Second-Hand Garments"
   type: Bachelor Thesis
   img1: garment_synth1.png
@@ -18,3 +11,10 @@
   img2: glasses_2.png
   pdf: StudentProjects_Aria2.pdf
   description: This project investigates human visual attention during garment inspection using smart glasses to understand human inspection behavior and support future robotic training.
+  
+- title: "Deep Learning for Sorting and Damage Detection in Second-Hand Garments"
+  type: Bachelor Thesis / Seminar Project / Master Thesis 
+  img1: garment_hm.jpg
+  img2: garment_band.jpg
+  pdf: StudentProjects_Textile.pdf
+  description: This project applies computer vision and deep learning to automate the identification and sorting reusable garments, reducing textile waste and conserving resources at an industrial scale.
