@@ -1,4 +1,13 @@
-- title: Damage Detection in Second-Hand Garments
+- title: Human Visual Attention Analysis During Garment Inspection Using Smart Glasses
+  img:  glasses_2.png
+
+- title: Synthetic Data Augmentation for Enhanced Defect Detection
+  img:  garment_synth1.png
+
+- title: Brand Marker and Defect Detection in Second-Hand Garments
+  img:  jeans_patch.png
+  
+- title: Garment Classification for Industrial-Scale Second-Hand Sorting
   img:  garment_hm.jpg
 
 - title: Multimodal Domain Adaptation for Air Traffic Management
