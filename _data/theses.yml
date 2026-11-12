@@ -3,11 +3,11 @@
   img1: garment_hm.jpg
   img2: garment_band.jpg
   pdf: StudentProjects_Textile.pdf
-  description: Prolonging the life cycle of garments reduces the environmental impact of textile production and consumption. Efficient and automated systems for large-scale sorting and damage detection of second-hand clothes enable reuse, resale, and recycling in the fashion industry. This project applies computer vision and deep learning approaches to develop a fully automated system that identifies and separates reusable garments at an industrial scale, contributing to the reduction of textile waste and the conservation of resources.
+  description: This project applies computer vision and deep learning to automate the identification and sorting reusable garments, reducing textile waste and conserving resources at an industrial scale.
   
 - title: "Synthetic Data for Defect Detection in Second-Hand Garments"
   type: Bachelor Thesis
   img1: garment_synth1.png
   img2: garment_synth2.png
   pdf: StudentProjects_Textile-2.pdf
-  description: The goal of the project is to investigate the effectiveness of synthetic data augmentation for automatic defect detection in second-hand garments. The focus will be on integrating synthetic data into the training process of several models and evaluating its impact on brand marker and defect detection performance. 
+  description: This project investigates the impact of synthetic data augmentation on training deep learning models for brand marker and defect detection in second-hand garments. 
