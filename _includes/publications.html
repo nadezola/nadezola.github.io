@@ -1,7 +1,7 @@
 <div class="publications">
     <h2><a href="{{ '/publications/' | relative_url }}">My Publications</a></h2>
     <ul>
-    {% for paper in site.data.papers %}
+    {% for paper in site.data.papers limit:include.limit %}
       <li>
       <div class="paper">
       <div class="paper-left">
@@ -53,5 +53,8 @@
       {% endfor %}
       
     </ul>
+    {% if include.limit %}
+      <p><a href="{{ '/publications/' | relative_url }}" aria-label="See more publications">see more</a></p>
+    {% endif %}
 
 </div>

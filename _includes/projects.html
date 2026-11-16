@@ -1,11 +1,14 @@
 <div class="projects-section">
   <h2><a href="{{ '/projects/' | relative_url }}">My Projects</a></h2>
   <div class="projects-grid">
-    {% for project in site.data.projects %}
+    {% for project in site.data.projects limit:include.limit %}
       <div class="project-card">
           <img src="{{ site.baseurl }}/assets/projects/{{ project.img }}" alt="{{ project.title }}">
           <p class="title">{{ project.title }}</p>
       </div>
     {% endfor %}
   </div>
+  {% if include.limit %}
+    <p><a href="{{ '/projects/' | relative_url }}" aria-label="See more projects">see more</a></p>
+  {% endif %}
 </div>
